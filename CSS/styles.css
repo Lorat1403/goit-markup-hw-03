@@ -1,0 +1,255 @@
+:root {
+    --header-list-color: #212121;
+    --first-btn-color: ;
+    --second-btn-color: ;
+    --first-title-color: #212121;
+    --second-title-color: ;
+    --first-text-color: #757575;
+    --accent-color: #188CE8;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #212121;
+    background-color: #E5E5E5;
+}
+
+
+/* cite-nav */
+
+.header-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--header-list-color);
+}
+
+.header-item a {
+    text-decoration: none;
+}
+
+.nav-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--header-list-color);
+}
+
+.nav-logo>span {
+    color: #2196F3;
+}
+
+.header-mail,
+.header-tel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--first-text-color);
+}
+
+.header-mail:hover,
+.header-tel:hover,
+.header-mail:focus,
+.header-tel:focus {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+}
+
+.current {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+}
+
+ul {
+    list-style: none;
+}
+
+.header-link:hover,
+.header-link:focus {
+    color: #2196F3;
+}
+
+
+/* --a cap-- */
+
+.cap {
+    background-color: #2F303A;
+}
+
+.cap-title {
+    font-size: 44px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.cap-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.87;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background-color: #2196F3;
+    cursor: pointer;
+}
+
+.cap-btn:hover,
+.cap-btn:focus {
+    color: #FFFFFF;
+    background-color: #188CE8;
+}
+
+.section-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--first-title-color);
+}
+
+
+/* ----qualities---- */
+
+.qualities-title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--first-title-color);
+}
+
+.qualities-text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--first-text-color);
+    text-align: left;
+}
+
+
+/* --our command --*/
+
+.command {
+    background-color: #F5F4FA;
+}
+
+.names {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    color: var(--first-title-color);
+}
+
+.profession {
+    font-size: 16px;
+    line-height: 1.9;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    color: var(--first-text-color);
+}
+
+
+/* portfolio projects */
+
+.filter-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--first-title-color);
+    background-color: #F5F4FA;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+.project-list .img-title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+    color: var(--first-title-color);
+}
+
+.project-list .img-text {
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--first-text-color);
+}
+
+
+/* --footer-- */
+
+.footer {
+    background-color: #2F303A;
+}
+
+.footer .nav-logo {
+    color: #FFFFFF;
+}
+
+.footer-list a {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+.footer-list a:hover,
+.footer-list a:focus {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.address {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.address:hover,
+.address:focus {
+    color: #2196F3;
+}
