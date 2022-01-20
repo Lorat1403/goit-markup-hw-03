@@ -14,8 +14,20 @@ body {
     background-color: #E5E5E5;
 }
 
+.container {
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+}
+
 
 /* cite-nav */
+
+.header {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
 
 .header-link {
     font-weight: 500;
@@ -124,10 +136,15 @@ ul {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--first-title-color);
+    margin-bottom: 50px;
 }
 
 
 /* ----qualities---- */
+
+.qualities {
+    padding-top: 80px;
+}
 
 .qualities-title {
     font-weight: bold;
@@ -147,10 +164,19 @@ ul {
 }
 
 
+/* -About- */
+
+.about {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+
 /* --our command --*/
 
 .command {
     background-color: #F5F4FA;
+    padding-top: 94px;
 }
 
 .names {
@@ -213,6 +239,8 @@ ul {
 
 .footer {
     background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .footer .nav-logo {
