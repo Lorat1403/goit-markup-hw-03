@@ -11,7 +11,7 @@
 body {
     font-family: "Roboto", sans-serif;
     color: #212121;
-    background-color: #E5E5E5;
+    background-color: #FFFFFF;
 }
 
 .container {
@@ -27,14 +27,37 @@ body {
 .header {
     padding-top: 32px;
     padding-bottom: 32px;
+    background-color: #FFFFFF;
 }
 
-.header-link {
+.header-container {
+    display: flex;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav-logo {
+    margin-right: 93px;
+}
+
+.header-links {
+    display: flex;
+    margin-left: auto;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--header-list-color);
+}
+
+.header-list {
+    display: flex;
+}
+
+.header-item+.header-item {
+    margin-left: 40px;
 }
 
 .header-item a {
@@ -75,6 +98,10 @@ body {
     color: #2196F3;
 }
 
+.header-tel {
+    margin-left: 50px;
+}
+
 .current {
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -85,19 +112,21 @@ body {
     color: #2196F3;
 }
 
-ul {
-    list-style: none;
-}
-
 .header-link:hover,
 .header-link:focus {
     color: #2196F3;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 
 /* --a cap-- */
 
 .cap {
+    display: flex;
     background-color: #2F303A;
 }
 
@@ -142,9 +171,10 @@ ul {
 
 /* ----qualities---- */
 
-.qualities {
+
+/* .qualities {
     padding-top: 80px;
-}
+} */
 
 .qualities-title {
     font-weight: bold;
@@ -166,17 +196,18 @@ ul {
 
 /* -About- */
 
-.about {
+
+/* .about {
     padding-top: 94px;
     padding-bottom: 94px;
-}
+} */
 
 
 /* --our command --*/
 
 .command {
     background-color: #F5F4FA;
-    padding-top: 94px;
+    /* padding-top: 94px; */
 }
 
 .names {
@@ -191,13 +222,17 @@ ul {
 .profession {
     font-size: 16px;
     line-height: 1.9;
-    /* identical to box height */
     letter-spacing: 0.03em;
     color: var(--first-text-color);
 }
 
 
 /* portfolio projects */
+
+.filters {
+    display: flex;
+    padding-left: 8px;
+}
 
 .filter-btn {
     font-weight: 500;
@@ -243,9 +278,19 @@ ul {
     padding-bottom: 60px;
 }
 
+
+/* .footer-container {
+    display: flex;
+} */
+
 .footer .nav-logo {
     color: #FFFFFF;
 }
+
+
+/* .footer-list {
+    display: flex;
+} */
 
 .footer-list a {
     font-family: "Roboto", sans-serif;
