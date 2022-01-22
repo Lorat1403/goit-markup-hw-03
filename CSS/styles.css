@@ -19,12 +19,14 @@ body {
     padding-right: 15px;
     padding-left: 15px;
     margin: 0 auto;
+    outline: 2px solid red;
 }
 
 
 /* cite-nav */
 
 .header {
+    display: flex;
     padding-top: 32px;
     padding-bottom: 32px;
     background-color: #FFFFFF;
@@ -32,18 +34,25 @@ body {
 
 .header-container {
     display: flex;
+    /* padding-top: 32px;
+    padding-bottom: 32px;
+    background-color: #FFFFFF; */
 }
 
 .nav {
     display: flex;
+    align-items: center;
 }
 
 .nav-logo {
     margin-right: 93px;
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
 
 .header-links {
     display: flex;
+    align-items: center;
     margin-left: auto;
     font-weight: 500;
     font-size: 14px;
@@ -54,6 +63,8 @@ body {
 
 .header-list {
     display: flex;
+    margin-right: auto;
+    align-items: center;
 }
 
 .header-item+.header-item {
@@ -99,8 +110,13 @@ body {
 }
 
 .header-tel {
-    margin-left: 50px;
+    padding-left: 50px;
 }
+
+
+/* .header-mail {
+    padding-left: auto;
+} */
 
 .current {
     font-family: "Roboto", sans-serif;
@@ -128,6 +144,8 @@ body {
 .cap {
     display: flex;
     background-color: #2F303A;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .cap-title {
@@ -138,6 +156,7 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
+    margin-bottom: 30px;
 }
 
 .cap-btn {
@@ -175,6 +194,10 @@ body {
 /* .qualities {
     padding-top: 80px;
 } */
+
+.qualities {
+    display: flex;
+}
 
 .qualities-title {
     font-weight: bold;
