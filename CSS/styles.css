@@ -20,7 +20,7 @@ body {
     padding-right: 15px;
     padding-left: 15px;
     margin: 0 auto;
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
 }
 
 
@@ -169,6 +169,7 @@ body {
     color: #ffffff;
     background-color: #2196f3;
     cursor: pointer;
+    justify-content: center;
 }
 
 .cap-btn:hover,
@@ -191,10 +192,9 @@ body {
 
 /* ----qualities---- */
 
-
-/* .qualities {
-    padding-top: 80px;
-} */
+.qualities {
+    padding-bottom: 0;
+}
 
 .qualities-list {
     display: flex;
@@ -230,6 +230,10 @@ body {
 
 /* -About- */
 
+.about {
+    padding-bottom: 0;
+}
+
 .about-list {
     display: flex;
 }
@@ -255,10 +259,22 @@ body {
 }
 
 .command-title {
+    padding-bottom: 50px;
     font-size: 36px;
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
+}
+
+.command-list {
+    display: flex;
+    margin-top: -50px;
+    margin-left: -30px;
+}
+
+.command-list>.command-item {
+    margin-top: 50px;
+    margin-left: 30px;
 }
 
 .names {
