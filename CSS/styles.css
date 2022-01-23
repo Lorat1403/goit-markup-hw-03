@@ -230,11 +230,14 @@ body {
 
 /* -About- */
 
+.about-list {
+    display: flex;
+}
 
-/* .about {
-    padding-top: 94px;
-    padding-bottom: 94px;
-} */
+.about-list>.about-item {
+    margin-top: 50px;
+    margin-left: 30px;
+}
 
 .about-title {
     font-size: 36px;
@@ -308,7 +311,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin-top: -1 * var(--projects-list-gap);
-    margin-left: -1* var(--projects-list-gap);
+    margin-left: -1 * var(--projects-list-gap);
 }
 
 .projects-list>.projects-item {
