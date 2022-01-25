@@ -28,9 +28,10 @@ body {
 
 .header {
     display: flex;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 24px;
+    padding-bottom: 25px;
     background-color: #ffffff;
+    border: 1px solid #ececec;
 }
 
 .header-container {
@@ -44,8 +45,8 @@ body {
 
 .nav-logo {
     margin-right: 93px;
-    margin-top: 24px;
-    margin-bottom: 24px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .header-links {
@@ -147,8 +148,10 @@ body {
 .cap {
     display: flex;
     background-color: #2f303a;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin: 0 auto;
+    max-width: 1200px;
 }
 
 .cap-title {
@@ -162,7 +165,15 @@ body {
     margin-bottom: 30px;
 }
 
+.tumb-btn {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
 .cap-btn {
+    width: 200px;
+    height: 50px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.87;
@@ -171,7 +182,6 @@ body {
     color: #ffffff;
     background-color: #2196f3;
     cursor: pointer;
-    justify-content: center;
 }
 
 .cap-btn:hover,
@@ -196,12 +206,14 @@ body {
 
 .qualities {
     padding-bottom: 0;
+    max-width: 1200px;
 }
 
 .qualities-list {
     display: flex;
     margin: 0 auto;
-    padding: 0;
+    /* padding: 0; */
+    max-width: 1200px;
 }
 
 .qualities-list>.qualities-item {
@@ -214,6 +226,8 @@ body {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 10px;
     color: var(--first-title-color);
 }
 
@@ -233,16 +247,16 @@ body {
 /* -About- */
 
 .about {
-    padding-bottom: 0;
+    /* padding-bottom: ; */
+    margin: 0 auto;
+    max-width: 1200px;
 }
 
 .about-list {
     display: flex;
-}
-
-.about-list>.about-item {
     margin-top: 50px;
-    /* margin-left: 30px; */
+    /* margin: 0 auto; */
+    max-width: 1200px;
 }
 
 .about-item+.about-item {
@@ -261,11 +275,10 @@ body {
 
 .command {
     background-color: #f5f4fa;
-    /* padding-top: 94px; */
 }
 
 .command-title {
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     font-size: 36px;
     line-height: 42px;
     text-align: center;
@@ -274,8 +287,6 @@ body {
 
 .command-list {
     display: flex;
-    margin-top: -50px;
-    margin-left: -30px;
 }
 
 .command-list>.command-item {
@@ -283,11 +294,16 @@ body {
     margin-left: 30px;
 }
 
+.command {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
 .names {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
-    /* identical to box height */
     letter-spacing: 0.03em;
     color: var(--first-title-color);
 }
@@ -379,12 +395,13 @@ body {
 
 .footer .nav-logo {
     color: #ffffff;
+    /* margin-bottom: 20px; */
 }
 
-
-/* .footer-list {
-    display: flex;
-} */
+.footer-list {
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
 
 .footer-list a {
     font-family: "Roboto", sans-serif;
@@ -410,6 +427,7 @@ body {
     letter-spacing: 0.03em;
     text-decoration: none;
     color: #ffffff;
+    margin-top: 20px;
 }
 
 .address:hover,
