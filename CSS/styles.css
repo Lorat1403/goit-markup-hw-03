@@ -321,8 +321,11 @@ body {
 .filter-list {
     display: flex;
     justify-content: center;
-    margin: 0 auto;
-    padding-left: 8px;
+    margin-bottom: 50px;
+}
+
+.filter-item+.filter-item {
+    margin-left: 8px;
 }
 
 .filter-btn {
@@ -330,6 +333,10 @@ body {
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    padding-right: 22px;
     letter-spacing: 0.03em;
     color: var(--first-title-color);
     background-color: #f5f4fa;
@@ -361,22 +368,31 @@ body {
 .projects-item {
     background: #ffffff;
     border: 1px solid #eeeeee;
-    /* box-sizing: border-box; */
+}
+
+.img-title {
+    margin-bottom: 4px;
 }
 
 .projects-item>.img-title {
-    font-weight: bold;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--first-title-color);
 }
 
-.project-list .img-text {
+.img-text {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
     color: var(--first-text-color);
+}
+
+.project {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
 
