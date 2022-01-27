@@ -266,10 +266,11 @@ body {
 
 .command-list {
     display: flex;
+    margin-left: -30px;
 }
 
 .command-list>.command-item {
-    margin-top: 50px;
+    /* margin-top: 50px; */
     margin-left: 30px;
 }
 
